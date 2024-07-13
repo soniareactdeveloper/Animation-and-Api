@@ -1,0 +1,11 @@
+.animation {
+  animation: pop .4s linear;
+}
+@keyframes pop {
+  from {
+    transform: scale(0.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
